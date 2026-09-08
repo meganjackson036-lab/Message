@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello there</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #d81b60;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #555;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Just a quick reminder...</h1>
+        <p>You are extremely pretty. 😊</p>
+    </div>
+
+    <script>
+        // This triggers an actual browser pop-up alert the second the page loads
+        window.onload = function() {
+            alert("Urgent message: You are very pretty!");
+        };
+    </script>
+
+</body>
+</html>
